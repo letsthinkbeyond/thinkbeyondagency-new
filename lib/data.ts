@@ -33,14 +33,62 @@ export const stats = [
 ];
 
 export const portfolio = [
-  { title: "Brü Haus Café", category: "Brand & Social", gradient: "from-[#3B2A20] to-[#8A5A3B]" },
-  { title: "Supriya Lifestyle Bazaar", category: "Performance & Content", gradient: "from-[#5B2A86] to-[#B85C9E]" },
-  { title: "Physio Fit", category: "Content Shoots", gradient: "from-[#123C2E] to-[#3FA66F]" },
-  { title: "XFashion", category: "Influencer & Video", gradient: "from-[#1A1A2E] to-[#FF4D30]" },
-  { title: "Khakhratoz", category: "Social Media", gradient: "from-[#7A2E12] to-[#F2A03D]" },
-  { title: "Shantaz Technofoods", category: "Brand Strategy", gradient: "from-[#0E2A47] to-[#3E8EDE]" },
-  { title: "SLEIN", category: "Website Design", gradient: "from-[#1B1B1B] to-[#4C4C4C]" },
-  { title: "Unified Socho", category: "Creative Direction", gradient: "from-[#2A1B3D] to-[#8B5FBF]" },
+  {
+    title: "Brü Haus Café",
+    category: "Brand & Social",
+    mediaType: "video",
+    mediaSrc: "/portfolio/25.mp4",
+    posterSrc: "/portfolio/poster.png",
+  },
+  {
+    title: "Supriya Lifestyle Bazaar",
+    category: "Performance & Content",
+    mediaType: "video",
+    mediaSrc: "/portfolio/26.mp4",
+    posterSrc: "/portfolio/poster.png",
+  },
+  {
+    title: "Physio Fit",
+    category: "Content Shoots",
+    mediaType: "video",
+    mediaSrc: "/portfolio/27.mp4",
+    posterSrc: "/portfolio/poster.png",
+  },
+  {
+    title: "XFashion",
+    category: "Influencer & Video",
+    mediaType: "image",
+    mediaSrc: "/portfolio/poster.png",
+    posterSrc: "/portfolio/poster.png",
+  },
+  {
+    title: "Khakhratoz",
+    category: "Social Media",
+    mediaType: "image",
+    mediaSrc: "/portfolio/poster.png",
+    posterSrc: "/portfolio/poster.png",
+  },
+  {
+    title: "Shantaz Technofoods",
+    category: "Brand Strategy",
+    mediaType: "image",
+    mediaSrc: "/portfolio/poster.png",
+    posterSrc: "/portfolio/poster.png",
+  },
+  {
+    title: "SLEIN",
+    category: "Website Design",
+    mediaType: "image",
+    mediaSrc: "/portfolio/poster.png",
+    posterSrc: "/portfolio/poster.png",
+  },
+  {
+    title: "Unified Socho",
+    category: "Creative Direction",
+    mediaType: "image",
+    mediaSrc: "/portfolio/poster.png",
+    posterSrc: "/portfolio/poster.png",
+  },
 ];
 
 export const process = [

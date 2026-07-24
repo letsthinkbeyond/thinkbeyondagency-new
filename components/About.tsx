@@ -46,7 +46,7 @@ export default function About() {
                 className="h-auto w-full rounded-[1.5rem] object-cover"
               />
             </div> */}
-            <div className="relative h-full w-full overflow-hidden rounded-[2rem] border border-white/20 bg-[#f7efe5] p-2 shadow-[0_25px_80px_rgba(0,0,0,0.15)]">
+            <div className="relative aspect-[4/5] w-full max-w-[22rem] overflow-hidden rounded-[2rem] border border-white/20 bg-[#f7efe5] p-2 shadow-[0_25px_80px_rgba(0,0,0,0.15)] sm:max-w-[24rem] md:max-w-[20rem] lg:max-w-[24rem]">
               <div className="relative h-full w-full overflow-hidden rounded-[1.5rem]">
                 <Image
                   src={posterImage}

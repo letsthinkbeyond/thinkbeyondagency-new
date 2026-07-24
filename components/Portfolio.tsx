@@ -44,22 +44,28 @@ export default function Portfolio() {
       </div>
 
       <div ref={trackRef} className="flex w-max gap-8 pl-6 md:pl-12">
-        {portfolio.map((project, i) => (
+        {portfolio.map((project) => (
           <div
             key={project.title}
             data-cursor-hover
-            className="group relative h-[60vh] w-[74vw] shrink-0 overflow-hidden rounded-2xl border border-ink/10 sm:w-[46vw] lg:w-[32vw]"
+            className="group relative aspect-[4/5] w-[78vw] max-w-[22rem] shrink-0 overflow-hidden rounded-2xl border border-ink/10 sm:w-[44vw] sm:max-w-[26rem] lg:w-[30vw] lg:max-w-[24rem]"
           >
-            <div
-              className={`absolute inset-0 bg-gradient-to-br ${project.gradient} transition-transform duration-700 ease-premium group-hover:scale-110`}
-            />
-            <div className="absolute inset-0 bg-black/10 transition-colors duration-500 group-hover:bg-black/25" />
-            <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
-              <span className="font-mono text-xs uppercase tracking-widest opacity-80">
-                {String(i + 1).padStart(2, "0")} — {project.category}
-              </span>
-              <h3 className="mt-2 font-display text-3xl">{project.title}</h3>
+            <div className="absolute inset-0 transition-transform duration-700 ease-premium group-hover:scale-105">
+              {project.mediaType === "video" ? (
+                <video
+                  src={project.mediaSrc}
+                  poster={project.posterSrc}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="h-full w-full object-cover object-center"
+                />
+              ) : (
+                <img src={project.mediaSrc} alt={project.title} className="h-full w-full object-cover" />
+              )}
             </div>
+            <div className="absolute inset-0 bg-black/10 transition-colors duration-500 group-hover:bg-black/20" />
           </div>
         ))}
       </div>
