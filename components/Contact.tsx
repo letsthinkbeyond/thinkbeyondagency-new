@@ -9,7 +9,7 @@ import MagneticButton from "./MagneticButton";
 import type { ContactFormErrors } from "@/lib/contact-validation";
 
 const channels = [
-  { icon: FaWhatsapp, label: "WhatsApp", href: "https://wa.me/919409597422" },
+  { icon: FaWhatsapp, label: "WhatsApp", href: "https://wa.me/919664971846" },
   { icon: FiInstagram, label: "Instagram", href: "https://www.instagram.com/thinkbeyondagency/" },
   { icon: FiMail, label: "Email", href: "mailto:letsthinkbeyond.co@gmail.com" },
 ];
