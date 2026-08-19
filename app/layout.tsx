@@ -37,6 +37,11 @@ export const metadata: Metadata = {
     description: "We don't just grow brands. We build obsessions.",
     images: ["/og-image.jpg"],
   },
+   icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   robots: { index: true, follow: true },
 };
 
