@@ -19,7 +19,7 @@ export default function About() {
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
             className="font-display text-xl leading-snug md:col-span-7 md:text-3xl"
           >
-            A founder doesn't build a brand to become just another name in the market. 
+            {/* A founder doesn't build a brand to become just another name in the market. 
             They build it with belief, sacrifice, and a vision for something bigger. 
             <br />
             <br />
@@ -27,6 +27,15 @@ export default function About() {
              the values behind it, and the future you dream of.
              <span className="text-accent"> We create what you've always imagined for your brand</span>.
              We don't want to change your vision—we want to help the world see it exactly as you imagined it.
+             <br /><br />
+             From our roots in Surat, India, we work with ambitious brands across India and beyond, helping them build a stronger identity, a meaningful digital presence, and a brand that can grow with them.
+            <br /><br />
+            We don't believe in changing your vision to fit what's already out there. We believe in giving your vision the clarity, character, and presence it deserves, and making it impossible to overlook. */}
+
+            A founder doesn’t build a brand to become just another name in the market. They build it with belief, sacrifice, and a vision for something bigger. At TBA, we begin by understanding that vision — the reason your brand exists, the values behind it, and the future you imagine. We turn that vision into a strong brand identity that feels true to who you are.
+            <br /><br />
+            From our roots in Surat, India, we work with ambitious brands across India and beyond. Through 
+            <span className="text-accent"> brand strategy, creative direction, and digital presence,</span> we help brands grow with clarity and character. We don’t change your vision to fit the market — we give it the presence it deserves and make it impossible to overlook.
           </motion.p>
 
           <motion.div

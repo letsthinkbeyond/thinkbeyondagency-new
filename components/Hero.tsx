@@ -33,7 +33,8 @@ export default function Hero() {
             transition={{ delay: 0.9, duration: 0.6 }}
             className="mb-6 inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-secondary"
           >
-            <span className="h-1.5 w-1.5 rounded-full bg-accent" /> Think Beyond Agency
+            <span className="h-1.5 w-1.5 rounded-full bg-accent" /> Think Beyond Agency 
+            <br /> branding and marketing 
           </motion.span>
 
           <h1 className="font-display text-[13vw] leading-[0.92] tracking-tight md:text-[6.4vw]">
@@ -56,7 +57,7 @@ export default function Hero() {
             transition={{ delay: 1.1, duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
             className="mt-8 max-w-lg text-lg leading-relaxed text-secondary"
           >
-            Anyone can share attention, Building a brand is different. It takes a clear Vision, Consistent, execution and the Courage to keep going long before the world starts noticing.
+            TBA (Think Beyond Agency) is a global branding and marketing agency based in Surat, India, working with ambitious brands across India and around the world. We build brands through strategy, creativity, content, and digital marketing, wherever our clients are.
           </motion.p>
 
           <motion.div
