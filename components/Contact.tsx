@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaWhatsapp } from "react-icons/fa6";
-import { FiPhone, FiInstagram, FiMail, FiArrowUpRight } from "react-icons/fi";
+import { FiPhone, FiInstagram, FiMail, FiArrowUpRight, FiSearch } from "react-icons/fi";
 import RevealText from "./RevealText";
 import MagneticButton from "./MagneticButton";
 import type { ContactFormErrors } from "@/lib/contact-validation";
@@ -12,6 +12,7 @@ const channels = [
   { icon: FaWhatsapp, label: "WhatsApp", href: "https://wa.me/919664971846" },
   { icon: FiInstagram, label: "Instagram", href: "https://www.instagram.com/thinkbeyondagency/" },
   { icon: FiMail, label: "Email", href: "mailto:letsthinkbeyond.co@gmail.com" },
+  { icon: FiSearch, label: "Search", href: "https://www.google.com/search?q=thinkbeyond+agency" },
 ];
 
 type FormState = {
