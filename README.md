@@ -93,4 +93,3 @@ This project has already been built successfully (`npm run build`) with zero typ
 **Production (Vercel):** add the same variables in Project Settings → Environment Variables.
 
 \
-ufihdhdjhj
