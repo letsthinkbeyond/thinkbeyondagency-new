@@ -91,3 +91,6 @@ This project has already been built successfully (`npm run build`) with zero typ
 **Gmail:** enable 2FA, then create an [App Password](https://myaccount.google.com/apppasswords) and use it as `SMTP_PASS`.
 
 **Production (Vercel):** add the same variables in Project Settings → Environment Variables.
+
+\
+ufihdhdjhj
